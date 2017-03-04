@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle sonogram-atom",
+        "command": "sonogram-atom:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "sonogram-atom",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "sonogram-atom:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

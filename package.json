@@ -1,0 +1,19 @@
+{
+  "name": "sonogram-atom",
+  "main": "./lib/sonogram-atom",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "sonogram-atom:toggle"
+  },
+  "repository": "https://github.com/atom/sonogram-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "ws": "^2.2.0"
+  }
+}
